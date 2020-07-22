@@ -1,0 +1,146 @@
+body{
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: .1px;
+	/*color: #2e281f;*/
+	font-family: Helvetica;
+	/* background-image: url('/images/UU_logo.jpg'); */
+	background-size: 100px;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: left;
+	/* Background: bg-color bg-image position/bg-size bg-repeat bg-attachment; */
+
+}
+
+/*Detta är en kommentar */
+
+p{
+	/*color: #2e281f;*/
+	font-family: "Helvetica neue";
+	/*border: 1px solid #b4d72a;*/
+	padding: 2px; /* top right bottom left */
+	margin: 20px; /* top right bottom left */
+}
+
+h1{
+	/*color: #666666;*/
+	font-family:"Helvetica neue" ;
+	margin-bottom: 5px ;
+	margin-top: 27px;
+
+}
+
+h3{
+	/*color: #666666;*/
+	font-family:"Helvetica neue" ;
+	margin-top:0px;
+
+}
+
+/* Divs är default blockelement */
+
+div{
+
+}
+
+#formstyling{
+	/*color: #2e281f;*/
+	font-family: "Helvetica neue";
+	/*border: 1px solid #b4d72a;*/
+	padding: 2px; /* top right bottom left */
+	margin: 20px; /* top right bottom left */
+}
+
+#message{
+	/*border-top: 1px solid #b4d72a;
+	border-bottom: 1px solid #b4d72a;*/
+	background: #b4d72a;
+	padding: 5px; /* top right bottom left */
+	/*margin: 20px;  top right bottom left */
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: inline-block;
+
+}
+
+#uulogo{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#sllogo{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: ;
+  margin: auto;
+  padding: 0px;
+}
+
+.title-form {
+  width: 50%;
+  height:100px;
+  background: ;
+  float: left;
+}
+
+.logos {
+  margin-left: 50%;
+  height:100px;
+  background: ;
+}
+
+/*#title-form{
+	position: relative;
+	padding:0px;
+	width: 500px;
+	display: inline;
+} 
+#logos{
+	position: relative;
+	padding:0px;
+	width: 200px;
+	height: 200px;
+	display: inline;
+}
+*/
+
+#text-form{
+	border-top: 1px solid #b4d72a;
+	border-bottom: 1px solid #b4d72a;
+	background: #f6f6f6;
+	padding:0px;
+}
+
+#page-form{
+	position: relative;
+	width: 800px;
+	margin:0 auto;
+	display: block;
+
+}
+
+#page-form2{
+	position: relative;
+	width: 900px;
+	margin:0 auto;
+	display: block;
+
+}
+
+/* Spans är default in-line element */
+span{
+	border: 5px solid red;
+	padding: 2px;
+	margin: 10px;
+	display: block;
+	width:100px; /* Bara blockelement kan ha attribut width och height */
+	height:100px;
+}
