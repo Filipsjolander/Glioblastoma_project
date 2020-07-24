@@ -7,19 +7,21 @@
 	#This is also a singe-line comment
 
 	$user = 'root';
-	$password = 'root';
+	$password = 'dagsforlunch222';
 	$db = 'image_information_manager';
-	$host = 'localhost';
-	$port = 8889;
+	$host = 'ip-172-31-6-241';
+	$port = 3306;
+	$socket = '/var/run/mysqld/mysqld.sock';
 
 	$link = mysqli_init();
 	$success = mysqli_real_connect(
-   		$link,
-   		$host,
-   		$user,
-   		$password,
-   		$db,
-   		$port
+  	 $link,
+   	$host,
+   	$user,
+   	$password,
+   	$db,
+   	$port,
+   	$socket
 	);
 
 
