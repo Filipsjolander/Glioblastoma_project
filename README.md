@@ -1,2 +1,2 @@
 # Glioblastoma_project
-A repo ccontaing files for the triplet embedding project.
+A repo containing files for the triplet embedding project.
