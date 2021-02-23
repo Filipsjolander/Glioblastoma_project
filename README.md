@@ -1,2 +1,2 @@
 # Glioblastoma_project
-A repo containing files needed to host a web client, and possibly python code for the model.
+A repo ccontaing files for the triplet embedding project.
